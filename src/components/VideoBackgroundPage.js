@@ -8,7 +8,6 @@ import video from "../assets/mp4/animation.mp4";
 
 class VideoBackgroundPage extends React.Component {
   state = {
-    collapse1: false,
     collapseID: ""
   };
   toggleCollapse = collapseID => () => this.setState(prevState => ({
