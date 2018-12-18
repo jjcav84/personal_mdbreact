@@ -5,9 +5,6 @@ import src1 from "../assets/png/JC_v3_50px.png";
 import  "./VideoBackgroundPage.css";
 
 class VideoBackgroundPage extends React.Component {
-  componentDidMount() {
-    document.title = "Jacob Cavazos' Personal Site"
-  }
   state = {
     collapse1: false,
     collapseID: ""
