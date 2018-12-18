@@ -20,7 +20,7 @@ const MapPage = () => {
             style={{ height: "400px" }}
           >
             <iframe
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDG1W9qhaTyFi2qBRo8dDDdIA_DV-v54Wk&q=Alamo, San Antonio+TX" allowfullscreen
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDG1W9qhaTyFi2qBRo8dDDdIA_DV-v54Wk&q=Alamo, San Antonio+TX" allowFullScreen
               title="This is a unique title"
               width="100%"
               height="100%"

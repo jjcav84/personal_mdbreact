@@ -81,7 +81,7 @@ class VideoBackgroundPage extends React.Component {
                     Web Development IT Operations Engineer Focused on Cloud Native Technology
                   </h4>
                   <Animation type="rubberBand" duration="2s" delay="500ms">
-                  <MDBBtn outline rounded hover waves-effect color="white" size="lg" href="mailto:jake@jacobcavazos.com">
+                  <MDBBtn outline rounded hover="true" waves-effect="true" color="white" size="lg" href="mailto:jake@jacobcavazos.com">
                     <MDBIcon icon="home" /> Email me
                   </MDBBtn>
                   </Animation>
