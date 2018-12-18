@@ -8,6 +8,8 @@
     "mdbreact": "git+https://oauth2:_7oBuv6K5-C2aZrzL65p@git.mdbootstrap.com/mdb/react/re-pro.git",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-ga": "^2.5.6",
+    "react-helmet": "^5.2.0",
     "react-scripts": "2.0.5"
   },
   "scripts": {
