@@ -1,3 +1,5 @@
+[![Build Status](https://semaphoreci.com/api/v1/jjcav84/personal_mdbreact/branches/master/badge.svg)](https://semaphoreci.com/jjcav84/personal_mdbreact)
+
 # React Bootstrap with Material Design
 MDBootstrap for React
 
