@@ -3,6 +3,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { MDBNavbar, NavbarToggler, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBMask, MDBRow, MDBCol, MDBIcon,  MDBBtn, MDBView, MDBContainer, Fa, Animation, Collapse } from "mdbreact";
 import src1 from "../assets/png/JC_v3_50px.png";
 import  "./VideoBackgroundPage.css";
+import background from "../assets/jpeg/background.jpg";
+import video from "../assets/mp4/animation.mp4";
 
 class VideoBackgroundPage extends React.Component {
   state = {
@@ -64,10 +66,10 @@ class VideoBackgroundPage extends React.Component {
           </div>
         </Router>
         <MDBView>
-          <video className="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsInline
-      autoPlay muted="" loop>
-      <source src="https://mdbootstrap.com/img/video/animation.mp4" type="video/mp4" />
-    </video>
+          <video className="video-intro" poster={background} playsInline
+            autoPlay muted="" loop>
+          <source src={video} type="video/mp4" />
+          </video>
     <MDBMask className="d-flex justify-content-center align-items-center gradient">
             <MDBContainer className="px-md-3 px-sm-0">
               <MDBRow>
@@ -79,7 +81,7 @@ class VideoBackgroundPage extends React.Component {
                   <h4 className="subtext-header mt-2 mb-4">
                     Web Development IT Operations Engineer Focused on Cloud Native Technology
                   </h4>
-                  <Animation type="fadeInUp" duration="1s">
+                  <Animation type="rubberBand" duration="2s" delay="500ms">
                   <MDBBtn outline rounded hover waves-effect color="white" size="lg" href="mailto:jake@jacobcavazos.com">
                     <MDBIcon icon="home" /> Email me
                   </MDBBtn>
@@ -88,7 +90,7 @@ class VideoBackgroundPage extends React.Component {
               </MDBRow>
             </MDBContainer>
           </MDBMask>
-        </MDBView>i
+        </MDBView>
         </div>
     )
   }

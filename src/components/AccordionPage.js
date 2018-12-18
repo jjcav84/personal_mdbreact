@@ -5,7 +5,7 @@ class AccordionPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      collapseID: 'collapse1'
+      collapseID: ''
     };
   }
 
@@ -25,7 +25,7 @@ class AccordionPage extends Component {
             <CollapseHeader onClick={this.toggleCollapse('collapse1')}>CentOS 7 Vagrant Box
               <i className={collapseID === 'collapse1' ? 'fa fa-angle-down rotate-icon' : 'fa fa-angle-down'}></i>
             </CollapseHeader>
-            <Collapse id="collapse1" isClosed={collapseID}>
+            <Collapse id="collapse1" isOpen={collapseID}>
               <CardBody>
               <p>
               <strong>N.B.</strong> All commands in this tutorial have been run as the root user so if you are going to use this to create a box that will be used in a production environment please know that you must properly adjust your permissions and groups accordingly for it to actually work therefore I don't advise using this tutorial to create a production box. <br></br><br></br>
