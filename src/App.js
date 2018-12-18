@@ -1,5 +1,5 @@
 import React from 'react';
-import {Helmet} from "react-helmet";
+import { Helmet } from 'react-helmet';
 import TestimonialsPage from './components/TestimonialsPage.js';
 import VideoBackgroundPage from './components/VideoBackgroundPage.js';
 import FeaturesPage from './components/FeaturesPage.js';
