@@ -7,5 +7,9 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+export default ReactDOM.render(
+  <App />,
+  document.getElementById('root') || document.createElement('div'),
+);
+
 registerServiceWorker();
