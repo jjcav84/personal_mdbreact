@@ -1,0 +1,96 @@
+import React from "react";
+import { MDBContainer, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBTestimonial, MDBIcon } from "mdbreact";
+
+const TestimonialsPage = () => {
+  return (
+    <MDBContainer>
+      <section className="text-center my-4">
+          <h3 className="responsive font-weight-bold my-4 pb-2">
+            Testimonials
+          </h3>
+
+          <MDBCarousel
+            activeItem={1}
+            length={4}
+            testimonial={true}
+            interval={false}
+            showIndicators={true}
+            className="no-flex"
+          >
+            <MDBCarouselInner>
+              <MDBCarouselItem itemId="1">
+                <MDBTestimonial>
+                <p>
+                <MDBIcon icon="quote-left" /> I have known Jacob Cavazos for about eight years. In that time he impressed me with his technical skills and knowledge. His willingness to embrace new technologies and his stark enthusiasm for technology are almost unbelievable as they are unwavering. Jacob played a lead role in the success of our projects and the subsequent support of solutions. It was through Jacob´s skills and knowledge as well as his ability to lead technical discussions, to assist and direct others with his energy and drive to deliver against difficult goals at the center of Alzheimer's and Parkinson's disease research by leveraging his technical sophistication to accelerate our tempo as a behind the scenes facilitator. Jacob was the key technical resource in my group. Jacob taught and mentored M.S. and Ph.D. students and helped also a postdoctoral scientist in his technological tasks. Jacob was one of the finest people I have worked with. He is a very hard working, focused and motivated individual with expertise in many various areas of technology especially Linux operations.
+                 <MDBIcon icon="quote-right" />
+                </p>
+                <h4 className="font-weight-bold my-1 pt-2">Professor Dr. Orkid Coskuner Weber</h4>
+                <h6 className="font-weight-bold my-3">
+                Turkish-German University Molecular Biotechnology
+                </h6>
+                <MDBIcon icon="star" className="light-blue-text" />
+                <MDBIcon icon="star" className="light-blue-text" />
+                <MDBIcon icon="star" className="light-blue-text" />
+                <MDBIcon icon="star" className="light-blue-text" />
+                <MDBIcon icon="star-half-full" className="light-blue-text" />
+                </MDBTestimonial> 
+              </MDBCarouselItem>
+              <MDBCarouselItem itemId="2">
+              <MDBTestimonial>
+                <p className="indigo-text">
+                <MDBIcon icon="quote-left" /> I have known Jacob Cavazos for about eight years. In that time he impressed me with his technical skills and knowledge. His willingness to embrace new technologies and his stark enthusiasm for technology are almost unbelievable as they are unwavering. Jacob played a lead role in the success of our projects and the subsequent support of solutions. It was through Jacob´s skills and knowledge as well as his ability to lead technical discussions, to assist and direct others with his energy and drive to deliver against difficult goals at the center of Alzheimer's and Parkinson's disease research by leveraging his technical sophistication to accelerate our tempo as a behind the scenes facilitator. Jacob was the key technical resource in my group. Jacob taught and mentored M.S. and Ph.D. students and helped also a postdoctoral scientist in his technological tasks. Jacob was one of the finest people I have worked with. He is a very hard working, focused and motivated individual with expertise in many various areas of technology especially Linux operations.
+                 <MDBIcon icon="quote-right" />
+                </p>
+                <h4 className="font-weight-bold my-1 pt-2 indigo-text">Professor Dr. Orkid Coskuner Weber</h4>
+                <h6 className="font-weight-bold my-3 indigo-text">
+                Turkish-German University Molecular Biotechnology
+                </h6>
+                <MDBIcon icon="star" className="indigo-text" />
+                <MDBIcon icon="star" className="indigo-text" />
+                <MDBIcon icon="star" className="indigo-text" />
+                <MDBIcon icon="star" className="indigo-text" />
+                <MDBIcon icon="star-half-full" className="indigo-text" />
+                </MDBTestimonial>
+              </MDBCarouselItem>
+              <MDBCarouselItem itemId="3">
+              <MDBTestimonial>
+                <p className="purple-text">
+                <MDBIcon icon="quote-left" /> I have known Jacob Cavazos for about eight years. In that time he impressed me with his technical skills and knowledge. His willingness to embrace new technologies and his stark enthusiasm for technology are almost unbelievable as they are unwavering. Jacob played a lead role in the success of our projects and the subsequent support of solutions. It was through Jacob´s skills and knowledge as well as his ability to lead technical discussions, to assist and direct others with his energy and drive to deliver against difficult goals at the center of Alzheimer's and Parkinson's disease research by leveraging his technical sophistication to accelerate our tempo as a behind the scenes facilitator. Jacob was the key technical resource in my group. Jacob taught and mentored M.S. and Ph.D. students and helped also a postdoctoral scientist in his technological tasks. Jacob was one of the finest people I have worked with. He is a very hard working, focused and motivated individual with expertise in many various areas of technology especially Linux operations.
+                 <MDBIcon icon="quote-right" />
+                </p>
+                <h4 className="font-weight-bold purple-text my-1 pt-2">Professor Dr. Orkid Coskuner Weber</h4>
+                <h6 className="font-weight-bold my-3 purple-text">
+                Turkish-German University Molecular Biotechnology
+                </h6>
+                <MDBIcon icon="star" className="purple-text" />
+                <MDBIcon icon="star" className="purple-text" />
+                <MDBIcon icon="star" className="purple-text" />
+                <MDBIcon icon="star" className="purple-text" />
+                <MDBIcon icon="star-half-full" className="purple-text" />
+                </MDBTestimonial>
+              </MDBCarouselItem>
+              <MDBCarouselItem itemId="4">
+              <MDBTestimonial>
+                <p className="blue-text">
+                <MDBIcon icon="quote-left" /> I have known Jacob Cavazos for about eight years. In that time he impressed me with his technical skills and knowledge. His willingness to embrace new technologies and his stark enthusiasm for technology are almost unbelievable as they are unwavering. Jacob played a lead role in the success of our projects and the subsequent support of solutions. It was through Jacob´s skills and knowledge as well as his ability to lead technical discussions, to assist and direct others with his energy and drive to deliver against difficult goals at the center of Alzheimer's and Parkinson's disease research by leveraging his technical sophistication to accelerate our tempo as a behind the scenes facilitator. Jacob was the key technical resource in my group. Jacob taught and mentored M.S. and Ph.D. students and helped also a postdoctoral scientist in his technological tasks. Jacob was one of the finest people I have worked with. He is a very hard working, focused and motivated individual with expertise in many various areas of technology especially Linux operations.
+                 <MDBIcon icon="quote-right" />
+                </p>
+                <h4 className="font-weight-bold blue-text my-1 pt-2">Professor Dr. Orkid Coskuner Weber</h4>
+                <h6 className="font-weight-bold my-3 blue-text">
+                Turkish-German University Molecular Biotechnology
+                </h6>
+                <MDBIcon icon="star" className="blue-text" />
+                <MDBIcon icon="star" className="blue-text" />
+                <MDBIcon icon="star" className="blue-text" />
+                <MDBIcon icon="star" className="blue-text" />
+                <MDBIcon icon="star-half-full" className="blue-text" />
+                </MDBTestimonial>
+              </MDBCarouselItem>
+            </MDBCarouselInner>
+          </MDBCarousel>
+        </section>
+    </MDBContainer>
+  );
+}
+
+export default TestimonialsPage;

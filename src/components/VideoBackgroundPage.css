@@ -1,0 +1,13 @@
+
+#videobackground .gradient {
+  background: -moz-linear-gradient(to top, #30d0d0b9, #330867b9 100%);
+  background: -webkit-linear-gradient(to top, #30d0d0b9, #330867b9 100%);
+  background: linear-gradient(to top, #30d0d0b9, #330867b9 100%);
+  }
+
+#videobackground .view video {
+top: 0!important;
+left: 0!important;
+transform: none!important;
+height: 100vh;
+}
