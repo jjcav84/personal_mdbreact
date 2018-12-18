@@ -1,3 +1,4 @@
+[![Build Status](https://semaphoreci.com/api/v1/jjcav84/personal_mdbreact/branches/accordion/badge.svg)](https://semaphoreci.com/jjcav84/personal_mdbreact)
 [![Maintainability](https://api.codeclimate.com/v1/badges/d2d838c09998d60860c3/maintainability)](https://codeclimate.com/github/jjcav84/personal_mdbreact/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/d2d838c09998d60860c3/test_coverage)](https://codeclimate.com/github/jjcav84/personal_mdbreact/test_coverage)
 # React Bootstrap with Material Design
