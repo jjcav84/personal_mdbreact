@@ -4,7 +4,6 @@ import { MDBNavbar, NavbarToggler, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDB
 import src1 from "../assets/png/JC_v3_50px.png";
 import  "./VideoBackgroundPage.css";
 import background from "../assets/jpeg/background.jpg";
-import video from "../assets/mp4/animation.mp4";
 
 class VideoBackgroundPage extends React.Component {
   state = {
@@ -67,7 +66,6 @@ class VideoBackgroundPage extends React.Component {
         <MDBView>
           <video className="video-intro" poster={background} playsInline
             autoPlay muted="" loop>
-          <source src={video} type="video/mp4" />
           </video>
     <MDBMask className="d-flex justify-content-center align-items-center gradient">
             <MDBContainer className="px-md-3 px-sm-0">
