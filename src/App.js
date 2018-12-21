@@ -7,6 +7,7 @@ import SkillsPage from './components/SkillsPage.js';
 import MapPage from './components/MapPage.js';
 import FooterPage from './components/FooterPage.js';
 import AccordionPage from './components/AccordionPage.js';
+import TwitterTimeline from './components/TwitterTimeline.js';
 import './App.css';
 
 class App extends React.Component {
@@ -29,6 +30,7 @@ class App extends React.Component {
       <SkillsPage />
       <MapPage />
       <TestimonialsPage />
+      <TwitterTimeline />
       <AccordionPage />
       <FooterPage />
       </div>
