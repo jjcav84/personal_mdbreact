@@ -4,11 +4,10 @@ import TestimonialsPage from './components/TestimonialsPage.js';
 import VideoBackgroundPage from './components/VideoBackgroundPage.js';
 import FeaturesPage from './components/FeaturesPage.js';
 import SkillsPage from './components/SkillsPage.js';
-import MapPage from './components/MapPage.jsx';
+import ContactPage from './components/ContactPage.jsx';
 import FooterPage from './components/FooterPage.js';
 import AccordionPage from './components/AccordionPage.js';
 import TwitterTimeline from './components/TwitterTimeline.js';
-import FormsPage from './components/FormsPage.jsx';
 import './App.css';
 
 class App extends React.Component {
@@ -29,8 +28,7 @@ class App extends React.Component {
       <VideoBackgroundPage />
       <FeaturesPage />
       <SkillsPage />
-      <FormsPage />
-      <MapPage />
+      <ContactPage />
       <TestimonialsPage />
       <TwitterTimeline />
       <AccordionPage />
