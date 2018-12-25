@@ -5,6 +5,7 @@
   "private": true,
   "// If You want to install mdbreact from our GitLab repository, please replace './mdbreact-4.8.5.tgz' with gitURL provided here ->": "git+https://oauth2:_7oBuv6K5-C2aZrzL65p@git.mdbootstrap.com/mdb/react/re-pro.git",
   "dependencies": {
+    "eslint": "^5.11.0",
     "jshint": "^2.9.7",
     "mdbreact": "git+https://oauth2:_7oBuv6K5-C2aZrzL65p@git.mdbootstrap.com/mdb/react/re-pro.git",
     "react": "^16.6.0",
