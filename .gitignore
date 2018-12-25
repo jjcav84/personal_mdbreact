@@ -4,3 +4,4 @@ node_modules/
 License.pdf
 mdbreact-4.8.5.tgz
 public/
+src/components/MapPage.js
