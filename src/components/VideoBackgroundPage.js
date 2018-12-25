@@ -85,7 +85,7 @@ class VideoBackgroundPage extends React.Component {
                   </h3>
                   <hr className="hr-light my-4 w-75" />
                   <h4 className="subtext-header mt-2 mb-4">
-                    Web Development IT Operations Engineer Focused on Cloud Native Technology
+                    Web Development IT Operations Engineer Focused on Cloud Native Technologies
                   </h4>
                   <Animation type="rubberBand" duration="2s" delay="500ms">
                   <MDBBtn outline rounded hover="true" waves-effect="true" color="white" size="lg" href="mailto:jake@jacobcavazos.com">
