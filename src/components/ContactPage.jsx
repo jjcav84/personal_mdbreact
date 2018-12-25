@@ -3,7 +3,7 @@ import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput, MDBCon
 
 const ContactPage = () => {
   return (
-    <section className="my-5">
+    <section id="contact" className="my-5">
       <h3 className="h3-responsive font-weight-bold text-center my-5">
         Contact me
       </h3>
