@@ -3,8 +3,8 @@ import { MDBRow, MDBCol, MDBInput, MDBBtn } from "mdbreact";
 
 class FormsPage extends React.Component {
   state = {
-    fname: "",
-    lname: "",
+    fname: "Mark",
+    lname: "Otto",
     email: "",
     city: "",
     state: "",
@@ -24,6 +24,8 @@ class FormsPage extends React.Component {
     return (
       <div>
         <form
+          action="https://formspree.io/jake@jacobcavazos.com" 
+          method="POST"
           className="needs-validation"
           onSubmit={this.submitHandler}
           noValidate
