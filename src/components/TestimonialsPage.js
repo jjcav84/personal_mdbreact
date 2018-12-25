@@ -5,7 +5,7 @@ const TestimonialsPage = () => {
   return (
     <MDBContainer>
       <section id="testimonial" className="text-center my-4">
-          <h3 className="responsive font-weight-bold my-4 pb-2">
+          <h3 className="h3-responsive font-weight-bold my-4 pb-2">
             Testimonials
           </h3>
 
