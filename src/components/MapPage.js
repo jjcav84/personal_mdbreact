@@ -3,7 +3,7 @@ import { MDBRow, MDBCol, MDBIcon, MDBBtn, Animation } from "mdbreact";
 
 const MapPage = () => {
   return (
-    <section className="my-5 mx-2 text-center">
+    <section id="map" className="my-5 mx-2 text-center">
      <Animation reveal type="zoomIn" duration="1s">
         <MDBIcon className="cyan-text" icon="map" size="3x" />
       </Animation>  

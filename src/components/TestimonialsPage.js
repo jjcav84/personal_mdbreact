@@ -4,7 +4,7 @@ import { MDBContainer, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBTestim
 const TestimonialsPage = () => {
   return (
     <MDBContainer>
-      <section className="text-center my-4">
+      <section id="testimonial" className="text-center my-4">
           <h3 className="responsive font-weight-bold my-4 pb-2">
             Testimonials
           </h3>
