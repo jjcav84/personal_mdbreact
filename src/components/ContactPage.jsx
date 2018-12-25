@@ -61,6 +61,7 @@ const ContactPage = () => {
                   id="form-text"
                 />
                 <MDBInput type="hidden" name="_next" value="https://jacobcavazos.com/"/>
+                <MDBinput type="text" name="_gotcha" style="display:none" />
               </div>
               <div className="text-center">
                 <MDBBtn type="submit" color="cyan">Submit</MDBBtn>
