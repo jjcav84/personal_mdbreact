@@ -19,8 +19,7 @@ class AccordionPage extends Component {
         <h3 className="responsive font-weight-bold my-5 text-center">
           Blog
         </h3>
-        <hr />
-        <Container className="md-accordion mt-3">
+        <Container className="md-accordion mt-3 mx-auto">
           <Card className="mt-3">
             <CollapseHeader onClick={this.toggleCollapse('collapse1')}>CentOS 7 Vagrant Box
               <i className={collapseID === 'collapse1' ? 'fa fa-angle-down rotate-icon' : 'fa fa-angle-down'}></i>
