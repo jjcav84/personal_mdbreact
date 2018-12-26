@@ -1,13 +1,13 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import TestimonialsPage from './components/TestimonialsPage.js';
-import VideoBackgroundPage from './components/VideoBackgroundPage.js';
-import FeaturesPage from './components/FeaturesPage.js';
-import SkillsPage from './components/SkillsPage.js';
+import TestimonialsPage from './components/TestimonialsPage.jsx';
+import VideoBackgroundPage from './components/VideoBackgroundPage.jsx';
+import FeaturesPage from './components/FeaturesPage.jsx';
+import SkillsPage from './components/SkillsPage.jsx';
 import ContactPage from './components/ContactPage.jsx';
-import FooterPage from './components/FooterPage.js';
-import AccordionPage from './components/AccordionPage.js';
-import TwitterTimeline from './components/TwitterTimeline.js';
+import FooterPage from './components/FooterPage.jsx';
+import AccordionPage from './components/AccordionPage.jsx';
+import TwitterTimeline from './components/TwitterTimeline.jsx';
 import './App.css';
 
 class App extends React.Component {

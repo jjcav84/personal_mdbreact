@@ -29,11 +29,11 @@ const FeaturesPage = () => {
             <h5 className="font-weight-bold my-4">Adventure</h5>
             <p className="black-text mb-lg-0 mb-5">
                 I believe in enjoying life and the importance of being in the the moment so I aim to live with a sense of adventure. I am not afraid of failure so by extending myself beyond my level of comfort in a controlled manner. I am always pushing to learn continuously through direct experience. I enjoy learning as much as I can and living as an gift and treasure to be enjoyed because to me my memories are more precious than luxurious material possessions which seem to come and go with the ebb and flow of time. Each day truly brings about new opportunities for education and adventures which should be seized upon in fulfillment of a well lived and meaningful existence.
-              </p>
-            </MDBCol>
-            <MDBCol lg="4" className="mx-auto">
+            </p>
+          </MDBCol>
+          <MDBCol lg="4" className="mx-auto">
             <Animation reveal type="zoomIn" duration="1s">
-            <MDBIcon className="cyan-text" icon="university" size="3x" />
+              <MDBIcon className="cyan-text" icon="university" size="3x" />
             </Animation>  
             <h5 className="font-weight-bold my-4">Experience</h5>
             <p className="black-text mb-lg-0 mb-5">
