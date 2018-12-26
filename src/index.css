@@ -28,11 +28,3 @@
 	font-weight:bold;
 	margin-top:1.5rem;
 }
-
-.example-components-list li > a {
-  color: #495057;
-}
-
-.example-components-list li:last-child > a {
-	border-bottom:0;
-}

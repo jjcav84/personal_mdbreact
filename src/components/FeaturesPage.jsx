@@ -6,8 +6,7 @@ const FeaturesPage = () => {
     <section id="about" className="text-center my-5">
       <MDBContainer>
         <MDBRow>
-          <MDBCol size="1"></MDBCol>
-          <MDBCol size="10">
+          <MDBCol>
             <Animation reveal type="zoomIn" duration="1s">
               <MDBIcon className="cyan-text mb-2" icon="user" size="4x" />
             </Animation> 
@@ -18,10 +17,8 @@ const FeaturesPage = () => {
             Hello, my name is Jacob Cavazos and thank you visiting my personal website. I am a high-performing results-driven IT Operations and Software Development Engineer with comprehensive experience across multiple IT projects, web application development and integration, infrastructure management, and quality assurance in dynamic, high-impact, and fast-paced environments. I thrive in driving business growth, directing creative and technical initiatives, providing operational support, and implementing cutting-edge information solutions to address business opportunities and organizational growth.
             </p>
           </MDBCol>
-          <MDBCol size="1">
-          </MDBCol>
         </MDBRow>
-        <MDBRow className="ml-5 mr-5 pl-2 pr-2">
+        <MDBRow className="mx-auto pl-2 pr-2">
           <MDBCol lg="4" className="mx-auto">
             <Animation reveal type="zoomIn" duration="1s">
               <MDBIcon className="cyan-text" icon="plane" size="3x" />

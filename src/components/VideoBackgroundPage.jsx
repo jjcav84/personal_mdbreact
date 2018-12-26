@@ -88,9 +88,9 @@ class VideoBackgroundPage extends React.Component {
     <MDBContainer>
               <MDBRow>
                 <MDBCol md="12" className="mb-4 white-text text-center">
-                  <h3 className="display-4 font-weight-bold mb-0 pt-md-5">
+                  <h2 className="display-5 font-weight-bold mt-5">
                     Jacob Cavazos{" "}
-                  </h3>
+                  </h2>
                   <hr className="hr-light my-4 w-75" />
                   <h4 className="subtext-header mt-2 mb-4">
                     Web Development IT Operations Engineer Focused on Cloud Native Technologies
