@@ -1,17 +1,18 @@
 import React from "react";
-import {  MDBRow, MDBCol, MDBCard, Animation, MDBIcon  } from "mdbreact";
+import {  MDBRow, MDBCol, MDBCard, Animation, MDBIcon, MDBContainer  } from "mdbreact";
 import card1 from '../assets/jpeg/32.jpg';
 import card2 from '../assets/jpeg/73.jpg';
 
 const SkillsPage = () => {
   return (
-    <section id="skills" className="text-center mx-4 my-5">
+    <section id="skills" className="text-center mx-auto my-5">
       <h2 className="h2-responsive font-weight-bold my-3">
         My Skills
       </h2>
       <Animation reveal type="zoomIn" duration="1s">
         <MDBIcon className="cyan-text mb-5" icon="terminal" size="3x" />
       </Animation>
+    <MDBContainer>
     <MDBRow>
     <MDBCol size="1">
     </MDBCol>
@@ -59,6 +60,7 @@ const SkillsPage = () => {
       <MDBCol size="1">
       </MDBCol>
     </MDBRow>
+    </MDBContainer>
   </section>
     );
   }

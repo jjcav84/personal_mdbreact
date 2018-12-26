@@ -4,12 +4,12 @@ import { MDBContainer, MDBRow } from 'mdbreact';
 
 const TwitterTimeline = () => {
   return (
-    <section id="twitter" className="text-center mx-4 my-5">
+    <section id="twitter" className="text-center mx-auto my-5">
     <h3 className="h3-responsive font-weight-bold my-4">
         My Twitter Feed
       </h3>
     <MDBContainer>
-    <MDBRow center>
+    <MDBRow className="mx-5" center>
     <div>
         <TwitterTimelineEmbed sourceType="url"          url="https://twitter.com/jcavazos84" 
         options={{width:800, height: 700}} />

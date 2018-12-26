@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { MDBNavbar, NavbarToggler, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBMask, MDBRow, MDBCol, MDBIcon,  MDBBtn, MDBView, MDBContainer, Fa, Animation, Collapse } from "mdbreact";
+import { MDBNavbar, NavbarToggler, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBMask, MDBRow, MDBCol, MDBIcon,  MDBBtn, MDBView, Fa, Animation, Collapse, MDBContainer } from "mdbreact";
 import src1 from "../assets/png/JC_v3_50px.png";
 import  "./VideoBackgroundPage.css";
 import background from "../assets/jpeg/background.jpg";
@@ -20,10 +20,9 @@ class VideoBackgroundPage extends React.Component {
         <Router>
           <div>
             <MDBNavbar color="cyan accent-1" light expand="md" fixed="top" scrolling>
-              <MDBContainer>
                 <MDBNavbarBrand>
                   <Animation type="bounce" duration="1s">
-                    <img src={src1} type="image/png" height="50" alt="JC logo" />
+                    <img src={src1} type="image/png" height="40" alt="JC logo" />
                   </Animation>
                 </MDBNavbarBrand>
                 <NavbarToggler tag="button" className="aqua-gradient" onClick={this.toggleCollapse('navbarCollapse12')}>
@@ -67,17 +66,26 @@ class VideoBackgroundPage extends React.Component {
                     </MDBNavItem>
                   </MDBNavbarNav>
                 </Collapse>
-              </MDBContainer>
             </MDBNavbar>
             {this.state.collapseID }
           </div>
         </Router>
         <MDBView>
-          <video className="video-intro" poster={background} playsInline
-            autoPlay muted="" loop>
+        <video
+            className="video-intro"
+            poster={background}
+            playsInline
+            autoPlay
+            muted=""
+            loop
+          >
+            <source
+              src="https://mdbootstrap.com/img/video/animation.mp4"
+              type="video/mp4"
+            />
           </video>
     <MDBMask className="d-flex justify-content-center align-items-center gradient">
-            <MDBContainer className="px-md-3 px-sm-0">
+    <MDBContainer>
               <MDBRow>
                 <MDBCol md="12" className="mb-4 white-text text-center">
                   <h3 className="display-4 font-weight-bold mb-0 pt-md-5">
@@ -94,7 +102,7 @@ class VideoBackgroundPage extends React.Component {
                   </Animation>
                 </MDBCol>
               </MDBRow>
-            </MDBContainer>
+              </MDBContainer>
           </MDBMask>
         </MDBView>
         </div>

@@ -7,10 +7,12 @@ const ContactPage = () => {
       <h3 className="h3-responsive font-weight-bold text-center my-5">
         Contact me
       </h3>
+      <MDBContainer>
       <p className="text-center w-responsive mx-auto pb-5">
         I would love if you would contact me with any questions comments or even complaints that you may have. I read every email and will personally respond to all contact submissions.
       </p>
-      <MDBContainer>
+      </MDBContainer>
+      <MDBContainer className="mx-auto">
         <MDBRow>
           <MDBCol lg="5" className="lg-0 mb-4">
             <MDBCard>
