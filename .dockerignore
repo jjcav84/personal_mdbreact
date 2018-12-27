@@ -1,5 +1,2 @@
-*
-!src
-yarn.lock
-!package.json
-!npm_modules
+.git
+!node_modules
