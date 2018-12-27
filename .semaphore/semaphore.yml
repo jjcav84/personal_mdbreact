@@ -16,8 +16,6 @@ blocks:
           - yarn
           - yarn build  
           - cache store node-modules-$(checksum package-lock.json) node_modules
-
-  blocks:
   - name: build
     task:
       jobs:
