@@ -23,9 +23,6 @@ blocks:
         commands:
           - checkout
           - docker build -t jcavazos/dockerize-personal-site:latest .
-          - docker run jcavazos/dockerize-personal-site:latest
-          - wget http://localhost
-
 
 
 
