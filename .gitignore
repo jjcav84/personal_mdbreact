@@ -1,8 +1,6 @@
 .DS_Store
-build/
 node_modules/
 License.pdf
 mdbreact-4.8.5.tgz
-public/
 src/components/ContactPage.jsx
 package.json
