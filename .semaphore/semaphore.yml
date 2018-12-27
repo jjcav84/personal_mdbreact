@@ -16,7 +16,7 @@ blocks:
           - yarn
           - yarn build  
           - cache store node-modules-$(checksum package-lock.json) node_modules
-      - name: build
+  - name: build
     task:
       jobs:
       - name: Docker Hub
