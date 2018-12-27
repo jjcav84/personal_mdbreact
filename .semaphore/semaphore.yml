@@ -1,28 +1,32 @@
 version: v1.0
-name: First pipeline example
+name: building mdbreact personal app
 agent:
   machine:
     type: e1-standard-2
     os_image: ubuntu1804
 
 blocks:
-  - name: "Build"
-    task:
-      env_vars:
-        - name: APP_ENV
-          value: prod
-      jobs:
-      - name: Docker build
-        commands:
-          - checkout
-          - ls -1
-          - echo $APP_ENV
-          - echo "Docker build..."
-          - echo "done"
-  - name: "Push Image"
+  - name: Install dependencies
     task:
       jobs:
-      - name: Push
+      - name: yarn
         commands:
           - checkout
-          - echo "make docker.push"
+          - cache restore node-modules-$(checksum package-lock.json)
+          - yarn
+          - yarn build  
+          - cache store node-modules-$(checksum package-lock.json) node_modules
+
+  blocks:
+  - name: build
+    task:
+      jobs:
+      - name: Docker Hub
+        commands:
+          - checkout
+          - docker build -t jcavazos/dockerize-personal-site:latest .
+          - docker run jcavazos/dockerize-personal-site:latest
+
+
+
+
