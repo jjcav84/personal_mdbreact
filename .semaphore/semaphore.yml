@@ -19,12 +19,10 @@ blocks:
   - name: build
     task:
       jobs:
-      - name: Docker Hub
+      - name: Docker Build
         commands:
           - checkout
           - docker build -t jcavazos/dockerize-personal-site:latest .
-          - docker run jcavazos/dockerize-personal-site:latest
-
 
 
 
