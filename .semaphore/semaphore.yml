@@ -17,9 +17,9 @@ blocks:
           - yarn build  
           - cache store node-modules-$(checksum package-lock.json) node_modules
       - name: build
-      task:
-        jobs:
-        - name: Docker Hub
+    task:
+      jobs:
+      - name: Docker Hub
         commands:
           - checkout
           - docker build -t jcavazos/dockerize-personal-site:latest .
