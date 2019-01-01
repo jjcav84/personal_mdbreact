@@ -9,7 +9,7 @@ const TwitterTimeline = () => {
     <MDBRow className="mx-auto" center>
     <div>
         <TwitterTimelineEmbed sourceType="URL"          url="https://twitter.com/jcavazos84" 
-        options={{width:800, height: 700}} />
+        options={{width:700, height: 600}} />
     </div>
     </MDBRow>
     </MDBContainer>
