@@ -6,6 +6,7 @@ import FeaturesPage from './components/FeaturesPage.jsx';
 import SkillsPage from './components/SkillsPage.jsx';
 import ContactPage from './components/ContactPage.jsx';
 import FooterPage from './components/FooterPage.jsx';
+import ModalPage from './components/ModalPage.jsx';
 import './App.css';
 
 class App extends React.Component {
@@ -26,8 +27,8 @@ class App extends React.Component {
         <VideoBackgroundPage />
         <FeaturesPage />
         <SkillsPage />
-        <ContactPage />
         <TestimonialsPage />
+        <ModalPage />
         <FooterPage />
       </div>
     );
