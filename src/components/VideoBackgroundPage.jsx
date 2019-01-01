@@ -4,6 +4,7 @@ import { MDBNavbar, NavbarToggler, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDB
 import src1 from "../assets/png/JC_v3_50px.png";
 import  "./VideoBackgroundPage.css";
 import background from "../assets/jpeg/background.jpg";
+import ModalPage from "./ModalPage.jsx";
 
 class VideoBackgroundPage extends React.Component {
   state = {
@@ -33,25 +34,19 @@ class VideoBackgroundPage extends React.Component {
     <Collapse id="navbarCollapse12" isOpen={this.state.collapseID} navbar>
                   <MDBNavbarNav left>
                     <MDBNavItem>
-                      <a className="nav-link text-dark Ripple-parent hover" href="/"> <strong>Home</strong></a>
+                      <a className="btn nav-link text-dark Ripple-parent hover" href="/"> <strong>Home</strong></a>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <a className="nav-link text-dark Ripple-parent hover" href="#about"> <strong>About Me</strong></a>
+                      <a className="btn nav-link text-dark Ripple-parent hover" href="#about"> <strong>About Me</strong></a>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <a className="nav-link text-dark Ripple-parent hover" href="#skills"> <strong>Skills</strong></a>
+                      <a className="btn nav-link text-dark Ripple-parent hover" href="#skills"> <strong>Skills</strong></a>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <a className="nav-link text-dark Ripple-parent hover" href="#contact"> <strong>Contact</strong></a>
+                      <a className="btn nav-link text-dark Ripple-parent hover" href="#testimonial"> <strong>Testimonial</strong></a>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <a className="nav-link text-dark Ripple-parent hover" href="#testimonial"> <strong>Testimonial</strong></a>
-                    </MDBNavItem>
-                    <MDBNavItem>
-                      <a className="nav-link text-dark Ripple-parent hover" href="#twitter"> <strong>Twitter Feed</strong></a>
-                    </MDBNavItem>
-                    <MDBNavItem>
-                    <a className="nav-link text-dark Ripple-parent hover" href="#blog"> <strong>Blog</strong></a> 
+                    <ModalPage />
                     </MDBNavItem>
                   </MDBNavbarNav>
                   <MDBNavbarNav right>
@@ -88,7 +83,7 @@ class VideoBackgroundPage extends React.Component {
     <MDBContainer>
               <MDBRow>
                 <MDBCol md="12" className="mb-4 white-text text-center">
-                  <h2 className="display-5 font-weight-bold mt-5">
+                  <h2 className="h2-responsive font-weight-bold mt-5">
                     Jacob Cavazos{" "}
                   </h2>
                   <hr className="hr-light my-4 w-75" />

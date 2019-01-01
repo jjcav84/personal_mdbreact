@@ -16,9 +16,6 @@ class AccordionPage extends Component {
     const {collapseID} = this.state;
     return (
       <Container id="blog">
-        <h3 className="responsive font-weight-bold my-5 text-center">
-          Blog
-        </h3>
         <Container className="md-accordion mt-3 mx-auto">
           <Card className="mt-3">
             <CollapseHeader onClick={this.toggleCollapse('collapse1')}>CentOS 7 Vagrant Box

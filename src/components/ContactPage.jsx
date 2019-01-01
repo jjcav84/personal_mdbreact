@@ -19,16 +19,14 @@ const ContactPage = () => {
               <MDBCardBody>
                 <div className="form-header cyan">
                   <h3 className="mt-2">
-                    <MDBIcon icon="envelope" /> Write to me:
+                    <MDBIcon icon="envelope" />Write to me:
                   </h3>
                 </div>
                 <form action="https://formspree.io/jake@jacobcavazos.com" method="POST">
                   <div className="md-form">
                     <MDBInput
                       name="name"
-                      icon="user"
                       label="Your name"
-                      iconClass="grey-text"
                       type="text"
                       id="form-name"
                     />
@@ -36,9 +34,7 @@ const ContactPage = () => {
                   <div className="md-form">
                     <MDBInput
                       name="email"
-                      icon="envelope"
                       label="Your email"
-                      iconClass="grey-text"
                       type="text"
                       id="form-email"
                     />
@@ -46,9 +42,7 @@ const ContactPage = () => {
                   <div className="md-form">
                     <MDBInput
                       name="subject"
-                      icon="tag"
                       label="Subject"
-                      iconClass="grey-text"
                       type="text"
                       id="form-subject"
                     />
@@ -94,14 +88,12 @@ const ContactPage = () => {
                   <MDBIcon icon="map-marker" />
                 </MDBBtn>
                 <p>San Antonio, TX</p>
-                <p className="mb-md-0">United States</p>
               </MDBCol>
               <MDBCol md="4">
                 <MDBBtn tag="a" floating color="cyan" className="accent-1">
                   <MDBIcon icon="phone" />
                 </MDBBtn>
                 <p>+1 (210) 724 5909</p>
-                <p className="mb-md-0">Mon - Fri, 9:00-18:00</p>
               </MDBCol>
               <MDBCol md="4">
                 <MDBBtn tag="a" floating color="cyan" className="accent-1">
