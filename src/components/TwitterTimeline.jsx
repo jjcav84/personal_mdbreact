@@ -5,9 +5,6 @@ import { MDBContainer, MDBRow } from 'mdbreact';
 const TwitterTimeline = () => {
   return (
     <section id="twitter" className="text-center mx-auto my-5">
-    <h3 className="h3-responsive font-weight-bold my-4">
-        My Twitter Feed
-      </h3>
     <MDBContainer>
     <MDBRow className="mx-auto" center>
     <div>
