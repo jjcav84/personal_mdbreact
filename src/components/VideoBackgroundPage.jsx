@@ -66,19 +66,10 @@ class VideoBackgroundPage extends React.Component {
           </div>
         </Router>
         <MDBView>
-        <video
-            className="video-intro"
-            poster={background}
-            playsInline
-            autoPlay
-            muted=""
-            loop
-          >
             <source
               src="https://mdbootstrap.com/img/video/animation.mp4"
               type="video/mp4"
             />
-          </video>
     <MDBMask className="d-flex justify-content-center align-items-center gradient">
     <MDBContainer>
               <MDBRow>
