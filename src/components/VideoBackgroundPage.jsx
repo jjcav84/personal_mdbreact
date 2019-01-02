@@ -66,7 +66,11 @@ class VideoBackgroundPage extends React.Component {
           </div>
         </Router>
         <MDBView>
-        <img src={background} type="image/jpg" widalt="Alley Behind Tied House in Downtown Mountain View" />
+        <img
+                    src={background}
+                    alt=""
+                    className="img-fluid"
+                  />
     <MDBMask className="d-flex justify-content-center align-items-center gradient">
     <MDBContainer>
               <MDBRow>
