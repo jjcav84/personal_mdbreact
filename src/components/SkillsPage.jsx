@@ -1,7 +1,7 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBCard, Animation, MDBIcon, MDBContainer  } from 'mdbreact';
-import card1 from '../assets/jpeg/32.jpg';
-import card2 from '../assets/jpeg/73.jpg';
+import card1 from '../assets/jpeg/IMG_5317.JPG';
+import card2 from '../assets/jpeg/IMG_5715.JPG';
 
 const SkillsPage = () => {
   return (
