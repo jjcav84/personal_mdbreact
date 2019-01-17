@@ -27,7 +27,7 @@ class ModalPage extends React.Component {
       <Container>
       <MDBRow center>
         <p className="btn nav-link text-dark Ripple-parent hover" onClick={() => this.toggle(2)}><strong>Twitter Feed</strong></p>
-        <Modal isOpen={this.state.modal2} toggle={() => this.toggle(2)} size="lg">
+        <Modal isOpen={this.state.modal2} toggle={() => this.toggle(2)} size="lg" centered>
           <ModalHeader toggle={() => this.toggle(2)}>My Twitter Feed</ModalHeader>
           <ModalBody>
           <TwitterTimeline />
@@ -47,7 +47,7 @@ class ModalPage extends React.Component {
           </ModalFooter>
         </Modal>
         <p className="btn nav-link text-dark Ripple-parent hover" size="lg" onClick={() => this.toggle(4)} ><strong>Contact</strong></p>
-        <Modal isOpen={this.state.modal4} toggle={() => this.toggle(4)} size="fluid">
+        <Modal isOpen={this.state.modal4} toggle={() => this.toggle(4)} size="fluid" backdrop={false}>
           <ModalHeader toggle={() => this.toggle(4)}>Contact me</ModalHeader>
           <ModalBody>
           <ContactPage />
