@@ -18,7 +18,7 @@ const SkillsPage = () => {
             <Animation reveal type="slideInLeft">
               <MDBCard className="card-image img-fluid"
                 style={{ backgroundImage: "url(" + card1 +")" }}>
-                <div className="text-white text-center d-flex align-items-center rgba-stylish-strong py-5 px-4 rounded">
+                <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
                   <div>
                     <h3 className="py-3 font-weight-bold">
                       <strong>Web Development and IT Operations Engineering</strong>
@@ -36,7 +36,7 @@ const SkillsPage = () => {
           <MDBCol className="mb-4">
             <Animation reveal type="slideInRight">
               <MDBCard className="card-image img-fluid" style={{ backgroundImage: "url(" + card2 +")" }}>
-                <div className="text-white text-center d-flex align-items-center rgba-stylish-strong py-5 px-4 rounded">
+                <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
                   <div>
                     <div>
                       <h3 className="py-3 font-weight-bold">
