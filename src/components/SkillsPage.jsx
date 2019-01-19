@@ -5,7 +5,7 @@ import card2 from '../assets/jpeg/IMG_5715.JPG';
 
 const SkillsPage = () => {
   return (
-    <section id="skills" className="text-center mx-auto my-5">
+    <section id="skills" className="text-center mx-auto my-3">
       <h2 className="h2-responsive font-weight-bold my-3">
         My Skills
       </h2>

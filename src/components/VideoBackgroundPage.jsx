@@ -23,7 +23,7 @@ class VideoBackgroundPage extends React.Component {
             <MDBNavbar color="cyan accent-1" light expand="md" fixed="top" scrolling>
                 <MDBNavbarBrand>
                   <Animation type="bounce" duration="1s">
-                    <img src={src1} type="image/png" height="40" alt="JC logo" />
+                    <img src={src1} type="image/png" height="50" alt="JC logo" />
                   </Animation>
                 </MDBNavbarBrand>
                 <NavbarToggler tag="button" className="aqua-gradient" onClick={this.toggleCollapse('navbarCollapse12')}>
@@ -74,16 +74,16 @@ class VideoBackgroundPage extends React.Component {
     <MDBMask className="d-flex justify-content-center align-items-center gradient">
     <MDBContainer>
               <MDBRow>
-                <MDBCol md="12" className="mb-4 white-text text-center">
+                <MDBCol md="12" className="mb-5 white-text text-center">
                   <h2 className="h2-responsive font-weight-bold mt-5">
                     Jacob Cavazos{" "}
                   </h2>
-                  <hr className="hr-light my-4 w-75" />
-                  <h4 className="subtext-header mt-2 mb-4">
-                    Web Development IT Operations Engineer Focused on Cloud Native Technologies
+                  <hr className="hr-light my-1 w-75" />
+                  <h4 className="subtext-header">
+                    Web Development & IT Operations Engineering
                   </h4>
-                  <Animation type="rubberBand" duration="2s" delay="500ms">
-                  <MDBBtn outline rounded hover="true" waves-effect="true" color="white" size="lg" href="mailto:jake@jacobcavazos.com">
+                  <Animation type="rubberBand" duration="2s" delay="700ms">
+                  <MDBBtn outline rounded hover="true" waves-effect="true" color="white"  size="lg" href="mailto:jake@jacobcavazos.com">
                     <MDBIcon icon="home" /> Email me
                   </MDBBtn>
                   </Animation>

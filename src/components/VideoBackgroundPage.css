@@ -8,6 +8,12 @@
 #videobackground .view video {
 left: 0!important;
 transform: none!important;
-height: 100%;
-width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+height: 100vh;
+}
+
+#videobackground > div.view {
+  margin-bottom: 3rem;
 }
