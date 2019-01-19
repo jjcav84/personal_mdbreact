@@ -1,6 +1,5 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import TestimonialsPage from './components/TestimonialsPage.jsx';
 import VideoBackgroundPage from './components/VideoBackgroundPage.jsx';
 import FeaturesPage from './components/FeaturesPage.jsx';
 import SkillsPage from './components/SkillsPage.jsx';
@@ -25,7 +24,6 @@ class App extends React.Component {
         <VideoBackgroundPage />
         <FeaturesPage />
         <SkillsPage />
-        <TestimonialsPage />
         <FooterPage />
       </div>
     );

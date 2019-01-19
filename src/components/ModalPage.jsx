@@ -3,6 +3,7 @@ import { Container, Button, Modal, ModalBody, ModalHeader, ModalFooter, MDBRow }
 import TwitterTimeline from './TwitterTimeline.jsx';
 import AccordionPage from './AccordionPage.jsx';
 import ContactPage from './ContactPage.jsx';
+import TestimonialsPage from './TestimonialsPage.jsx';
 
 
 class ModalPage extends React.Component {
@@ -11,7 +12,8 @@ class ModalPage extends React.Component {
     this.state = {
       modal2: false,
       modal3: false,
-      modal4: false
+      modal4: false,
+      modal5: false
     };
   }
 
@@ -54,6 +56,16 @@ class ModalPage extends React.Component {
           </ModalBody>
           <ModalFooter>
             <Button color="purple" onClick={() => this.toggle(4)}>Close</Button>
+          </ModalFooter>
+        </Modal>
+        <p className="btn nav-link text-dark Ripple-parent hover" size="lg" onClick={() => this.toggle(4)} ><strong>Testamonial</strong></p>
+        <Modal isOpen={this.state.modal4} toggle={() => this.toggle(5)} size="fluid" backdrop={false}>
+          <ModalHeader toggle={() => this.toggle(4)}>Testamonials</ModalHeader>
+          <ModalBody>
+          <TestimonialsPage />
+          </ModalBody>
+          <ModalFooter>
+            <Button color="purple" onClick={() => this.toggle(5)}>Close</Button>
           </ModalFooter>
         </Modal>
         </MDBRow>
