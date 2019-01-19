@@ -43,9 +43,6 @@ class VideoBackgroundPage extends React.Component {
                       <a className="btn nav-link text-dark Ripple-parent hover" href="#skills"> <strong>Skills</strong></a>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <a className="btn nav-link text-dark Ripple-parent hover" href="#testimonial"> <strong>Testimonial</strong></a>
-                    </MDBNavItem>
-                    <MDBNavItem>
                     <ModalPage />
                     </MDBNavItem>
                   </MDBNavbarNav>
