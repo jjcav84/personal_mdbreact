@@ -7,7 +7,7 @@ const FeaturesPage = () => {
       <MDBContainer>
         <MDBRow>
           <MDBCol> 
-            <Animation reveal type="zoomIn" duration="1s">
+            <Animation type="zoomIn" duration="2s"  delay="900ms">
               <MDBIcon className="cyan-text mb-2" icon="user" size="4x" />
             </Animation> 
             <h3 className="responsive font-weight-bold my-2">

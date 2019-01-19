@@ -22,7 +22,7 @@ class VideoBackgroundPage extends React.Component {
           <div>
             <MDBNavbar color="cyan accent-1" light expand="md" fixed="top" scrolling>
                 <MDBNavbarBrand>
-                  <Animation type="bounce" duration="1s">
+                  <Animation type="bounce" duration="1s"  delay="700ms">
                     <img src={src1} type="image/png" height="50" alt="JC logo" />
                   </Animation>
                 </MDBNavbarBrand>
