@@ -3,14 +3,14 @@ import {  MDBRow, MDBCol, MDBIcon, Animation, MDBContainer } from 'mdbreact';
 
 const FeaturesPage = () => {
   return (
-    <section id="about" className="text-center my-5">
+    <section id="about" className="text-center my-3">
       <MDBContainer>
         <MDBRow>
-          <MDBCol>
+          <MDBCol> 
             <Animation reveal type="zoomIn" duration="1s">
               <MDBIcon className="cyan-text mb-2" icon="user" size="4x" />
             </Animation> 
-            <h3 className="responsive font-weight-bold my-5">
+            <h3 className="responsive font-weight-bold my-2">
             About Me
             </h3>
             <p className="lead black-text mx-auto mb-5">
