@@ -14,7 +14,10 @@ const FeaturesPage = () => {
             About Me
             </h3>
             <p className="lead black-text mx-auto mb-5">
-            Hello, my name is Jacob Cavazos and thank you visiting my personal website. I am a high-performing results-driven IT Operations and Software Development Engineer with comprehensive experience across multiple IT projects, web application development and integration, infrastructure management, and quality assurance in dynamic, high-impact, and fast-paced environments. I thrive in driving business growth, directing creative and technical initiatives, providing operational support, and implementing cutting-edge information solutions to address business opportunities and organizational growth.
+              Hello, my name is Jacob Cavazos and thank you visiting my personal website. I am a high-performing results-driven IT Operations and Software Development Engineer with comprehensive experience across multiple IT projects, web application development and integration, infrastructure management, and quality assurance in dynamic, high-impact, and fast-paced environments. I thrive in driving business growth, directing creative and technical initiatives, providing operational support, and implementing cutting-edge information solutions to address business opportunities and organizational growth.
+            </p>
+            <p className="lead black-text mx-auto mb-5">
+            This site was built as a static site using React featuring a CI/CD pipeline using Semaphore that deploys to my UpCloud Virtual Private Server running CentOS on this domain as well as concurrently to an <a href="https://jakecavazos.com"> AWS S3 bucket</a> and <a href="https://jakecavazos.host"> Google Firebase</a> as well as creating and pushing a docker image to my <a  href="https://cloud.docker.com/repository/docker/jcavazos/dockerize-personal-site">public repository</a> 
             </p>
           </MDBCol>
         </MDBRow>
