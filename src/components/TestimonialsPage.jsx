@@ -12,9 +12,8 @@ const TestimonialsPage = () => {
         <MDBCarousel
           activeItem={1}
           length={1}
-          testimonial={true}
           interval={false}
-          showIndicators={true}
+          showIndicators={false}
           className="no-flex"
         >
           <MDBCarouselInner>
