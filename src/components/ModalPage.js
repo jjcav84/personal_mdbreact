@@ -58,7 +58,7 @@ class ModalPage extends React.Component {
               <Button color="purple" onClick={() => this.toggle(4)}>Close</Button>
             </ModalFooter>
           </Modal>
-          <p className="btn nav-link text-dark Ripple-parent hover" size="lg" onClick={() => this.toggle(4)} ><strong>Testimonial</strong></p>
+          <p className="btn nav-link text-dark Ripple-parent hover" size="lg" onClick={() => this.toggle(5)} ><strong>Testimonial</strong></p>
           <Modal isOpen={this.state.modal5} toggle={() => this.toggle(5)} size="fluid" backdrop={false}>
             <ModalHeader toggle={() => this.toggle(5)}>Testimonials</ModalHeader>
             <ModalBody>
