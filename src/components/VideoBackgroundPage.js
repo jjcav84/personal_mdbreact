@@ -4,7 +4,7 @@ import { MDBNavbar, NavbarToggler, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDB
 import src1 from "../assets/png/JC_v3_50px.png";
 import  "./VideoBackgroundPage.css";
 import background from "../assets/jpeg/background.jpg";
-import ModalPage from "./ModalPage.jsx";
+import ModalPage from "./ModalPage.js";
 
 class VideoBackgroundPage extends React.Component {
   state = {
