@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Button, Modal, ModalBody, ModalHeader, ModalFooter, MDBRow } from 'mdbreact';
-import TwitterTimeline from './TwitterTimeline.jsx';
-import AccordionPage from './AccordionPage.jsx';
-import ContactPage from './ContactPage.jsx';
-import TestimonialsPage from './TestimonialsPage.jsx';
+import TwitterTimeline from './TwitterTimeline.js';
+import AccordionPage from './AccordionPage.js';
+import ContactPage from './ContactPage.js';
+import TestimonialsPage from './TestimonialsPage.js';
 
 
 class ModalPage extends React.Component {

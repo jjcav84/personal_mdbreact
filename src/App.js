@@ -1,9 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import VideoBackgroundPage from './components/VideoBackgroundPage.jsx';
-import FeaturesPage from './components/FeaturesPage.jsx';
-import SkillsPage from './components/SkillsPage.jsx';
-import FooterPage from './components/FooterPage.jsx';
+import VideoBackgroundPage from './components/VideoBackgroundPage.js'
+import FeaturesPage from './components/FeaturesPage.js';
+import SkillsPage from './components/SkillsPage.js';
+import FooterPage from './components/FooterPage.js';
 import './App.css';
 
 class App extends React.Component {
