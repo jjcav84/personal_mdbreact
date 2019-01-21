@@ -10,7 +10,7 @@ const SkillsPage = () => {
         My Skills
       </h2>
       <Animation reveal type="zoomIn" duration="1s">
-        <MDBIcon className="cyan-text mb-5" icon="terminal" size="3x" />
+        <MDBIcon className="cyan-text mb-5" icon="laptop-code" size="3x" />
       </Animation>
       <MDBContainer>
         <MDBRow>

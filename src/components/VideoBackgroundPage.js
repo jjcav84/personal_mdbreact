@@ -48,13 +48,13 @@ class VideoBackgroundPage extends React.Component {
                   </MDBNavbarNav>
                   <MDBNavbarNav right>
                     <MDBNavItem>
-                    <a className="nav-link text-dark navbar-link hover" rel="noopener noreferrer" target="_blank" href="https://linkedin.com/in/jacobjessecavazos"><Fa icon="linkedin" /></a>
+                    <a className="nav-link text-dark navbar-link hover" rel="noopener noreferrer" target="_blank" href="https://linkedin.com/in/jacobjessecavazos"><MDBIcon fab icon="linkedin" /></a>
                     </MDBNavItem>
                     <MDBNavItem>
-                    <a className="nav-link text-dark navbar-link hover" rel="noopener noreferrer" target="_blank" href="https://github.com/jjcav84"><Fa icon="github" /></a>
+                    <a className="nav-link text-dark navbar-link hover" rel="noopener noreferrer" target="_blank" href="https://github.com/jjcav84"><MDBIcon fab icon="github-square" /></a>
                     </MDBNavItem>
                     <MDBNavItem>
-                    <a className="nav-link text-dark navbar-link hover" rel="noopener noreferrer" target="_blank" href="https://twitter.com/jcavazos84"><Fa icon="twitter" /></a>
+                    <a className="nav-link text-dark navbar-link hover" rel="noopener noreferrer" target="_blank" href="https://twitter.com/jcavazos84"><MDBIcon fab icon="twitter-square" /></a>
                     </MDBNavItem>
                   </MDBNavbarNav>
                 </Collapse>
