@@ -1,10 +1,10 @@
-import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-import { MDBNavbar, NavbarToggler, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBMask, MDBRow, MDBCol, MDBIcon,  MDBBtn, MDBView, Fa, Animation, Collapse, MDBContainer } from "mdbreact";
-import src1 from "../assets/png/JC_v3_50px.png";
-import  "./VideoBackgroundPage.css";
-import background from "../assets/jpeg/background.jpg";
-import ModalPage from "./ModalPage.js";
+import React from "react"
+import { BrowserRouter as Router } from "react-router-dom"
+import { MDBNavbar, NavbarToggler, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBMask, MDBRow, MDBCol, MDBIcon,  MDBBtn, MDBView, Fa, Animation, Collapse, MDBContainer } from "mdbreact"
+import src1 from "../assets/png/JC_v3_50px.png"
+import  "./VideoBackgroundPage.css"
+import background from "../assets/jpeg/background.jpg"
+import ModalPage from "./ModalPage.js"
 
 class VideoBackgroundPage extends React.Component {
   state = {
@@ -62,12 +62,7 @@ class VideoBackgroundPage extends React.Component {
             {this.state.collapseID }
           </div>
         </Router>
-        <MDBView>
-        <img
-                    src={background}
-                    alt=""
-                    className="img-fluid"
-                  />
+        <MDBView src={background} className="img-fluid">
     <MDBMask className="d-flex justify-content-center align-items-center gradient">
     <MDBContainer>
               <MDBRow>
@@ -92,6 +87,6 @@ class VideoBackgroundPage extends React.Component {
         </div>
     )
   }
-};
+}
 
-export default VideoBackgroundPage;
+export default VideoBackgroundPage
