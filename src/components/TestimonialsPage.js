@@ -27,11 +27,11 @@ const TestimonialsPage = () => {
                 <h6 className="font-weight-bold my-3">
                 Turkish-German University Molecular Biotechnology
                 </h6>
-                <MDBIcon icon="star" className="light-blue-text" />
-                <MDBIcon icon="star" className="light-blue-text" />
-                <MDBIcon icon="star" className="light-blue-text" />
-                <MDBIcon icon="star" className="light-blue-text" />
-                <MDBIcon icon="star-half-full" className="light-blue-text" />
+                <MDBIcon icon="star" className="cyan-text" />
+                <MDBIcon icon="star" className="cyan-text" />
+                <MDBIcon icon="star" className="cyan-text" />
+                <MDBIcon icon="star" className="cyan-text" />
+                <MDBIcon icon="star" className="cyan-text" />
               </MDBTestimonial> 
             </MDBCarouselItem>
           </MDBCarouselInner>

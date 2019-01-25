@@ -1,17 +1,17 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import VideoBackgroundPage from './components/VideoBackgroundPage';
-import FeaturesPage from './components/FeaturesPage';
-import SkillsPage from './components/SkillsPage';
-import FooterPage from './components/FooterPage';
-import './App.css';
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import VideoBackgroundPage from './components/VideoBackgroundPage'
+import FeaturesPage from './components/FeaturesPage'
+import SkillsPage from './components/SkillsPage'
+import FooterPage from './components/FooterPage'
+import './App.css'
 
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
       someData: null,
-    };
+    }
   }
   render() {
     return (
@@ -26,7 +26,7 @@ class App extends React.Component {
         <SkillsPage />
         <FooterPage />
       </div>
-    );
+    )
   }
 }
 
