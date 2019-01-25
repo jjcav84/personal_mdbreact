@@ -65,7 +65,7 @@ class VideoBackgroundPage extends React.Component {
             {this.state.collapseID }
           </div>
         </Router>
-        <MDBView src={background} className="img-fluid" waves>
+        <MDBView src={background} class="img-fluid">
     <MDBMask className="d-flex justify-content-center align-items-center gradient">
     <MDBContainer>
               <MDBRow>
