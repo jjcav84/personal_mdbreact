@@ -9,13 +9,13 @@ const SkillsPage = () => {
       <h2 className="h2-responsive font-weight-bold my-3">
         My Skills
       </h2>
-      <Animation reveal type="zoomIn" duration="1s">
+      <Animation reveal type="zoomIn" duration="500ms">
         <MDBIcon className="cyan-text mb-5" icon="laptop-code" size="3x" />
       </Animation>
       <MDBContainer>
         <MDBRow>
           <MDBCol className="mb-4">
-            <Animation reveal type="slideInLeft">
+            <Animation reveal type="slideInLeft" duration="350ms">
               <MDBCard className="card-image img-fluid"
                 style={{ backgroundImage: "url(" + card1 +")" }}>
                 <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
@@ -34,7 +34,7 @@ const SkillsPage = () => {
         </MDBRow>
         <MDBRow>
           <MDBCol className="mb-4">
-            <Animation reveal type="slideInRight">
+            <Animation reveal type="slideInRight" duration="350ms">
               <MDBCard className="card-image img-fluid" style={{ backgroundImage: "url(" + card2 +")" }}>
                 <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
                   <div>
