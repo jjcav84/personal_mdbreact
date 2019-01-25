@@ -23,9 +23,9 @@ class VideoBackgroundPage extends React.Component {
           <div>
             <MDBNavbar color="cyan accent-1" light expand="md" fixed="top" scrolling>
                 <MDBNavbarBrand>
-                  <Animation type="bounce" duration="1s"  delay="700ms">
+                  <Animation type="bounce" duration="1s">
                   <a href="/">
-                    <img src={src1} type="image/png" height="50" alt="JC logo" />
+                    <img src={src1} type="image/png" height="40" alt="JC logo" />
                     </a>
                   </Animation>
                 </MDBNavbarBrand>
@@ -79,7 +79,7 @@ class VideoBackgroundPage extends React.Component {
                   <h4 className="subtext-header">
                     Web Development & IT Operations Engineering
                   </h4>
-                  <Animation type="rubberBand" duration="2s" delay="700ms">
+                  <Animation type="rubberBand" duration="1s">
                   <MDBBtn outline rounded hover="true" waves-effect="true" color="white"  size="lg" href="mailto:jake@jacobcavazos.com">
                     <MDBIcon icon="home" /> Email me
                   </MDBBtn>

@@ -7,8 +7,8 @@ const FeaturesPage = () => {
       <MDBContainer>
         <MDBRow>
           <MDBCol> 
-            <Animation type="zoomIn" duration="2s"  delay="900ms">
-              <MDBIcon className="cyan-text mb-2" icon="user-ninja" size="4x" />
+            <Animation reveal type="zoomIn" duration="500ms">
+              <MDBIcon className="cyan-text mb-2" icon="user-ninja" size="3x" />
             </Animation> 
             <h3 className="responsive font-weight-bold my-2">
             About Me
@@ -23,7 +23,7 @@ const FeaturesPage = () => {
         </MDBRow>
         <MDBRow className="mx-auto pl-2 pr-2">
           <MDBCol lg="4" className="mx-auto">
-            <Animation reveal type="zoomIn" duration="1s">
+            <Animation reveal type="zoomIn" duration="500ms">
               <MDBIcon className="cyan-text" icon="space-shuttle" size="3x" />
             </Animation>  
             <h5 className="font-weight-bold my-4">Adventure</h5>
@@ -32,7 +32,7 @@ const FeaturesPage = () => {
             </p>
           </MDBCol>
           <MDBCol lg="4" className="mx-auto">
-            <Animation reveal type="zoomIn" duration="1s">
+            <Animation reveal type="zoomIn" duration="500ms">
               <MDBIcon className="cyan-text" icon="hat-wizard" size="3x" />
             </Animation>  
             <h5 className="font-weight-bold my-4">Experience</h5>
@@ -41,7 +41,7 @@ const FeaturesPage = () => {
             </p>
           </MDBCol>
           <MDBCol lg="4" className="mx-auto">
-            <Animation reveal type="zoomIn" duration="1s">
+            <Animation reveal type="zoomIn" duration="500ms">
               <MDBIcon className="cyan-text" icon="laugh-beam" size="3x" />
             </Animation>  
             <h5 className="font-weight-bold my-4">Happiness</h5>
