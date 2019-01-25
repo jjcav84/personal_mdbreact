@@ -1,10 +1,11 @@
-import React from "react"
-import { BrowserRouter as Router } from "react-router-dom"
-import { MDBNavbar, NavbarToggler, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBMask, MDBRow, MDBCol, MDBIcon,  MDBBtn, MDBView, Fa, Animation, Collapse, MDBContainer } from "mdbreact"
-import src1 from "../assets/png/JC_v3_50px.png"
-import  "./VideoBackgroundPage.css"
-import background from "../assets/jpeg/background.jpg"
-import ModalPage from "./ModalPage.js"
+
+import React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { MDBNavbar, NavbarToggler, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBMask, MDBRow, MDBCol, MDBIcon,  MDBBtn, MDBView, Fa, Animation, Collapse, MDBContainer } from 'mdbreact'
+import src1 from '../assets/png/JC_v3_50px.png'
+import  './VideoBackgroundPage.css'
+import background from '../assets/jpeg/background.jpg'
+import ModalPage from './ModalPage'
 
 class VideoBackgroundPage extends React.Component {
   state = {
@@ -23,7 +24,9 @@ class VideoBackgroundPage extends React.Component {
             <MDBNavbar color="cyan accent-1" light expand="md" fixed="top" scrolling>
                 <MDBNavbarBrand>
                   <Animation type="bounce" duration="1s"  delay="700ms">
+                  <a href="/">
                     <img src={src1} type="image/png" height="50" alt="JC logo" />
+                    </a>
                   </Animation>
                 </MDBNavbarBrand>
                 <NavbarToggler tag="button" className="aqua-gradient" onClick={this.toggleCollapse('navbarCollapse12')}>
@@ -33,9 +36,6 @@ class VideoBackgroundPage extends React.Component {
     </NavbarToggler>
     <Collapse id="navbarCollapse12" isOpen={this.state.collapseID} navbar>
                   <MDBNavbarNav left>
-                    <MDBNavItem>
-                      <a className="btn nav-link text-dark Ripple-parent hover" href="/"> <strong>Home</strong></a>
-                    </MDBNavItem>
                     <MDBNavItem>
                       <a className="btn nav-link text-dark Ripple-parent hover" href="#about"> <strong>About Me</strong></a>
                     </MDBNavItem>
@@ -51,10 +51,13 @@ class VideoBackgroundPage extends React.Component {
                     <a className="nav-link text-dark navbar-link hover" rel="noopener noreferrer" target="_blank" href="https://linkedin.com/in/jacobjessecavazos"><MDBIcon fab icon="linkedin" /></a>
                     </MDBNavItem>
                     <MDBNavItem>
-                    <a className="nav-link text-dark navbar-link hover" rel="noopener noreferrer" target="_blank" href="https://github.com/jjcav84"><MDBIcon fab icon="github-square" /></a>
+                    <a className="nav-link text-dark navbar-link hover" rel="noopener noreferrer" target="_blank" href="https://github.com/jjcav84"><MDBIcon fab icon="github" /></a>
                     </MDBNavItem>
                     <MDBNavItem>
-                    <a className="nav-link text-dark navbar-link hover" rel="noopener noreferrer" target="_blank" href="https://twitter.com/jcavazos84"><MDBIcon fab icon="twitter-square" /></a>
+                    <a className="nav-link text-dark navbar-link hover" rel="noopener noreferrer" target="_blank" href="https://twitter.com/jcavazos84"><MDBIcon fab icon="twitter" /></a>
+                    </MDBNavItem>
+                    <MDBNavItem>
+                    <a className="nav-link text-dark navbar-link hover" rel="noopener noreferrer" target="_blank" href="https://hub.docker.com/u/jcavazos"><MDBIcon fab icon="docker" /></a>
                     </MDBNavItem>
                   </MDBNavbarNav>
                 </Collapse>
