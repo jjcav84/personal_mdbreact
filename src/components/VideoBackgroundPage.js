@@ -21,9 +21,11 @@ class VideoBackgroundPage extends React.Component {
         <Router>
           <div>
             <MDBNavbar color="cyan accent-1" light expand="md" fixed="top" scrolling>
-                <MDBNavbarBrand href="./components/VideoBackgroundPage">
+                <MDBNavbarBrand>
                   <Animation type="bounce" duration="1s"  delay="700ms">
+                  <a href="/">
                     <img src={src1} type="image/png" height="50" alt="JC logo" />
+                    </a>
                   </Animation>
                 </MDBNavbarBrand>
                 <NavbarToggler tag="button" className="aqua-gradient" onClick={this.toggleCollapse('navbarCollapse12')}>
@@ -33,9 +35,6 @@ class VideoBackgroundPage extends React.Component {
     </NavbarToggler>
     <Collapse id="navbarCollapse12" isOpen={this.state.collapseID} navbar>
                   <MDBNavbarNav left>
-                    <MDBNavItem>
-                      <a className="btn nav-link text-dark Ripple-parent hover" href="/"> <strong>Home</strong></a>
-                    </MDBNavItem>
                     <MDBNavItem>
                       <a className="btn nav-link text-dark Ripple-parent hover" href="#about"> <strong>About Me</strong></a>
                     </MDBNavItem>
