@@ -62,10 +62,12 @@ class VideoBackgroundPage extends React.Component {
                   </MDBNavbarNav>
                 </Collapse>
             </MDBNavbar>
-            {this.state.collapseID }
+            {this.state.collapseID}
           </div>
         </Router>
-        <MDBView src={background}>
+        <MDBView>
+        <img src={background} class="img-fluid" alt="background image from doMountain View, California">
+        </img>
     <MDBMask className="d-flex justify-content-center align-items-center gradient">
     <MDBContainer>
               <MDBRow>
