@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Container, Collapse, Card, CardBody, CollapseHeader } from 'mdbreact';
+import React, { Component } from 'react'
+import { Container, Collapse, Card, CardBody, CollapseHeader } from 'mdbreact'
 
 class AccordionPage extends Component {
   constructor(props) {
@@ -89,4 +89,4 @@ class AccordionPage extends Component {
   }
 }
 
-export default AccordionPage;
+export default AccordionPage
