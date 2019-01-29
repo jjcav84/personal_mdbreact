@@ -8,9 +8,9 @@ import './App.css'
 
 class App extends React.Component {
   constructor() {
-    super();
+    super()
     this.state = {
-      someData: null,
+      someData: null
     }
   }
   render() {
@@ -30,4 +30,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default App
