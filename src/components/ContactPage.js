@@ -1,13 +1,24 @@
-import React from 'react';
-import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput, MDBContainer } from 'mdbreact';
+import React from 'react'
+import {
+  MDBRow,
+  MDBCol,
+  MDBCard,
+  MDBCardBody,
+  MDBIcon,
+  MDBBtn,
+  MDBInput,
+  MDBContainer
+} from 'mdbreact'
 
 const ContactPage = () => {
   return (
     <section id="contact" className="my-5">
       <MDBContainer>
-      <p className="text-center w-responsive mx-auto pb-5">
-        I would love if you would contact me with any questions comments or even complaints that you may have. I read every email and will personally respond to all contact submissions.
-      </p>
+        <p className="text-center w-responsive mx-auto pb-5">
+          I would love if you would contact me with any questions comments or
+          even complaints that you may have. I read every email and will
+          personally respond to all contact submissions.
+        </p>
       </MDBContainer>
       <MDBContainer className="mx-auto">
         <MDBRow>
@@ -16,10 +27,13 @@ const ContactPage = () => {
               <MDBCardBody>
                 <div className="form-header cyan">
                   <h3 className="mt-2">
-                    <MDBIcon icon="envelope" />Write to me:
+                    <MDBIcon icon="envelope" />
+                    Write to me:
                   </h3>
                 </div>
-                <form action="https://formspree.io/jake@jacobcavazos.com" method="POST">
+                <form
+                  action="https://formspree.io/jake@jacobcavazos.com"
+                  method="POST">
                   <div className="md-form">
                     <MDBInput
                       name="name"
@@ -53,11 +67,17 @@ const ContactPage = () => {
                       type="textarea"
                       id="form-text"
                     />
-                    <MDBInput type="hidden" name="_next" value="https://jacobcavazos.com/"/>
+                    <MDBInput
+                      type="hidden"
+                      name="_next"
+                      value="https://jacobcavazos.com/"
+                    />
                     <MDBInput type="text" name="_gotcha" className="d-none" />
                   </div>
                   <div className="text-center">
-                    <MDBBtn type="submit" color="cyan">Submit</MDBBtn>
+                    <MDBBtn type="submit" color="cyan">
+                      Submit
+                    </MDBBtn>
                   </div>
                 </form>
               </MDBCardBody>
@@ -67,10 +87,9 @@ const ContactPage = () => {
             <div
               id="map-container"
               className="rounded z-depth-1-half map-container"
-              style={{ height: '400px' }}
-            >
+              style={{ height: '400px' }}>
               <iframe
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyChaY0p1-16o6nCrJp_byQtDcfShQzmuck&q=Alamo, San Antonio+TX" 
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyChaY0p1-16o6nCrJp_byQtDcfShQzmuck&q=Alamo, San Antonio+TX"
                 title="This is a unique title"
                 width="100%"
                 height="100%"
@@ -103,7 +122,7 @@ const ContactPage = () => {
         </MDBRow>
       </MDBContainer>
     </section>
-  );
-};
+  )
+}
 
-export default ContactPage;
+export default ContactPage

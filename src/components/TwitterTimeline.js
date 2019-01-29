@@ -1,6 +1,6 @@
-import React from 'react';
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
-import { MDBContainer, MDBRow } from 'mdbreact';
+import React from 'react'
+import { TwitterTimelineEmbed } from 'react-twitter-embed'
+import { MDBContainer, MDBRow } from 'mdbreact'
 
 const TwitterTimeline = () => {
   return (
@@ -8,14 +8,16 @@ const TwitterTimeline = () => {
       <MDBContainer>
         <MDBRow className="mx-auto" center>
           <div>
-            <TwitterTimelineEmbed sourceType="URL"          url="https://twitter.com/jcavazos84" 
-              options={{width: 500, height: 350}} />
+            <TwitterTimelineEmbed
+              sourceType="URL"
+              url="https://twitter.com/jcavazos84"
+              options={{ width: 500, height: 350 }}
+            />
           </div>
         </MDBRow>
       </MDBContainer>
     </section>
-  );
-};
-  
-export default TwitterTimeline;  
+  )
+}
 
+export default TwitterTimeline
