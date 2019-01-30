@@ -132,7 +132,7 @@ class VideoBackgroundPage extends React.Component {
         <MDBView>
           <img
             src={background}
-            class="img-fluid"
+            className="img-fluid"
             alt="downtown Mountain View, California"
           />
           <MDBMask className="d-flex justify-content-center align-items-center gradient">
