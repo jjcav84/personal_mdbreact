@@ -1,5 +1,3 @@
-import Index from './index.js'
-
 it('renders without crashing', () => {
   const root = document.createElement('div')
   root.setAttribute('id', 'root')
