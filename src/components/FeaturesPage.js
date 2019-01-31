@@ -73,7 +73,7 @@ const FeaturesPage = () => {
               web application development. During the past year in a concerted
               effort to transition into DevOps from operational and
               administrative roles I dedicated myself to learning Ruby and
-              JavaScript because I believe that if you can't develop software
+              JavaScript because I believe that if you cannot develop software
               then you will not be very successful in the modern software and
               information technology culture..
             </p>

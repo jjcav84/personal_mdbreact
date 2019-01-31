@@ -37,7 +37,7 @@ class AccordionPage extends Component {
                   run as the root user so if you are going to use this to create
                   a box that will be used in a production environment please
                   know that you must properly adjust your permissions and groups
-                  accordingly for it to actually work therefore I don't advise
+                  accordingly for it to actually work therefore I do not advise
                   using this tutorial to create a production box. <br />
                   <br />
                   The link below is an article that helped me when I began to
@@ -62,16 +62,16 @@ class AccordionPage extends Component {
                   instructions will be very similar if not identical. Next is
                   actually installing the image on your VirtualBox program
                   running on your physical machine. Be sure to name it something
-                  simple that is easy for you to type so that you don't have
-                  possibly catastrophic issues (like i did... yikes!) when you
-                  type the command to pass the file's name to Vagrant to package
-                  the box after the installation and configuration steps are
-                  completed. In the settings select Linux Red Hat 64-bit and
-                  assign 512mb ram and 1-2 cpu(s) running on a dynamically
-                  allocated vdmk virtual hard drive with 30-40gb of storage.
-                  Next add an optical disk drive to the IDE controller then
-                  mount the downloaded CentOS 7 iso file onto it. Continue the
-                  install on VirtualBox by following this link:{' '}
+                  simple that is easy for you to type so that you don&apos;t
+                  have possibly catastrophic issues (like i did... yikes!) when
+                  you type the command to pass the file&apos;s name to Vagrant
+                  to package the box after the installation and configuration
+                  steps are completed. In the settings select Linux Red Hat
+                  64-bit and assign 512mb ram and 1-2 cpu(s) running on a
+                  dynamically allocated vdmk virtual hard drive with 30-40gb of
+                  storage. Next add an optical disk drive to the IDE controller
+                  then mount the downloaded CentOS 7 iso file onto it. Continue
+                  the install on VirtualBox by following this link:{' '}
                   <a href="How to install CentOS 7">How to install CentOS 7</a>
                   <br />
                   <br />
@@ -93,7 +93,7 @@ class AccordionPage extends Component {
                   repository mirror to down load package files from so it is
                   worth having installed. It is normally installed by default
                   even on the minimal CentOS 7 installation images but you
-                  should run the command just to make sure as it won't hurt
+                  should run the command just to make sure as it won&apos;t hurt
                   anything and it only costs a few seconds.
                   <br />
                   <kbd># yum -y install yum-plugin-fastestmirror</kbd> <br />
@@ -165,7 +165,7 @@ class AccordionPage extends Component {
                   <br />
                   <br />
                   <kbd>
-                    # sed -i -e 's/^SELINUX=.*/SELINUX=permissive/'
+                    # sed -i -e &apos;s/^SELINUX=.*/SELINUX=permissive/&apos;
                     /etc/selinux/config
                   </kbd>
                   <br />
@@ -183,12 +183,14 @@ class AccordionPage extends Component {
                   <br />
                   <br />
                   <kbd>
-                    # sed -i 's/^\(Defaults.*requiretty\)/#\U/' /etc/sudoers
+                    # sed -i &apos;s/^\(Defaults.*requiretty\)/#\U/&apos;
+                    /etc/sudoers
                   </kbd>{' '}
                   <br />
                   <br />
                   <kbd>
-                    # echo "vagrant ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+                    # echo &quot;vagrant ALL=(ALL) NOPASSWD: ALL&quot; &gt;&gt;
+                    /etc/sudoers
                   </kbd>
                   <br />
                   <br />
@@ -303,7 +305,7 @@ class AccordionPage extends Component {
           </Card>
           <Card>
             <CollapseHeader onClick={this.toggleCollapse('collapse2')}>
-              How to Purge Nginx Pagespeed Module's Cache
+              How to Purge Nginx Pagespeed Module&apos;s Cache
               <i
                 className={
                   collapseID === 'collapse2'
@@ -352,8 +354,8 @@ class AccordionPage extends Component {
                 </p>
                 <p>
                   The quickest an surest way I have found to purge the Nginx
-                  Pagespeed Module's cache is to simply remove the files in the
-                  cache which if you are using the CentminMod script can be
+                  Pagespeed Module&apos;s cache is to simply remove the files in
+                  the cache which if you are using the CentminMod script can be
                   accomplished by deleting the files with the rm command
                 </p>
                 <p>
