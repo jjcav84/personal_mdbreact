@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/static/media/fa-regular-400.72f15fa7.woff"
   },
   {
-    "revision": "80efa56be5eaebd06ea34f1adbad071c",
-    "url": "/static/media/fa-regular-400.80efa56b.eot"
-  },
-  {
     "revision": "fcb220ee57704c9c80680153bada946c",
     "url": "/static/media/fa-regular-400.fcb220ee.ttf"
+  },
+  {
+    "revision": "80efa56be5eaebd06ea34f1adbad071c",
+    "url": "/static/media/fa-regular-400.80efa56b.eot"
   },
   {
     "revision": "662c24d02ff1711bd01ec3868df8680b",
@@ -92,16 +92,16 @@ self.__precacheManifest = [
     "url": "/static/media/fa-solid-900.c8ea4c79.svg"
   },
   {
-    "revision": "8ef6a08cdc1154920165680a4edde771",
-    "url": "/static/media/arrow_right.8ef6a08c.svg"
-  },
-  {
     "revision": "11911410dca2de148f30954eb2fd5eab",
     "url": "/static/media/arrow_left.11911410.svg"
   },
   {
     "revision": "b257fa9c5ac8c515ac4d77a667ce2943",
     "url": "/static/media/default-skin.b257fa9c.svg"
+  },
+  {
+    "revision": "8ef6a08cdc1154920165680a4edde771",
+    "url": "/static/media/arrow_right.8ef6a08c.svg"
   },
   {
     "revision": "dfe56a876d0282555d1e2458e278060f",
@@ -128,6 +128,10 @@ self.__precacheManifest = [
     "url": "/static/media/Roboto-Thin.954bbdeb.woff2"
   },
   {
+    "revision": "69f8a0617ac472f78e45841323a3df9e",
+    "url": "/static/media/Roboto-Light.69f8a061.woff2"
+  },
+  {
     "revision": "2751ee43015f9884c3642f103b7f70c9",
     "url": "/static/media/Roboto-Regular.2751ee43.woff2"
   },
@@ -138,10 +142,6 @@ self.__precacheManifest = [
   {
     "revision": "39b2c3031be6b4ea96e2e3e95d307814",
     "url": "/static/media/Roboto-Bold.39b2c303.woff2"
-  },
-  {
-    "revision": "69f8a0617ac472f78e45841323a3df9e",
-    "url": "/static/media/Roboto-Light.69f8a061.woff2"
   },
   {
     "revision": "7500519de3d82e33d1587f8042e2afcb",
@@ -164,16 +164,16 @@ self.__precacheManifest = [
     "url": "/static/media/Roboto-Bold.dc81817d.woff"
   },
   {
+    "revision": "94998475f6aea65f558494802416c1cf",
+    "url": "/static/media/Roboto-Thin.94998475.ttf"
+  },
+  {
     "revision": "46e48ce0628835f68a7369d0254e4283",
     "url": "/static/media/Roboto-Light.46e48ce0.ttf"
   },
   {
     "revision": "df7b648ce5356ea1ebce435b3459fd60",
     "url": "/static/media/Roboto-Regular.df7b648c.ttf"
-  },
-  {
-    "revision": "94998475f6aea65f558494802416c1cf",
-    "url": "/static/media/Roboto-Thin.94998475.ttf"
   },
   {
     "revision": "894a2ede85a483bf9bedefd4db45cdb9",
