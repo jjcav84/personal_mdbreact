@@ -103,7 +103,7 @@ class ModalPage extends React.Component {
             className="btn nav-link text-dark Ripple-parent hover"
             size="lg"
             onClick={() => this.toggle(5)}>
-            <strong>Testimonial</strong>
+            <strong>Testimonials</strong>
           </p>
           <Modal
             isOpen={this.state.modal5}

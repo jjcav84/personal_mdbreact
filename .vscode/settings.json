@@ -1,4 +1,7 @@
 {
   "prettier.eslintIntegration": true,
-  "prettier.jsxBracketSameLine": true
+  "prettier.jsxBracketSameLine": true,
+  "cSpell.words": [
+    "apos"
+  ]
 }
