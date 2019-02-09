@@ -1,11 +1,11 @@
-import React from "react"
+import React, { Component } from "react"
 import {
-  Container,
-  Button,
-  Modal,
-  ModalBody,
-  ModalHeader,
-  ModalFooter,
+  MDBContainer,
+  MDBBtn,
+  MDBModal,
+  MDBModalBody,
+  MDBModalHeader,
+  MDBModalFooter,
   MDBRow
 } from "mdbreact"
 import TwitterTimeline from "./TwitterTimeline"
@@ -13,7 +13,7 @@ import AccordionPage from "./AccordionPage"
 import ContactPage from "./ContactPage"
 import TestimonialsPage from "./TestimonialsPage"
 
-class ModalPage extends React.Component {
+class ModalPage extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -33,7 +33,7 @@ class ModalPage extends React.Component {
 
   render() {
     return (
-      <Container>
+      <MDBContainer>
         <MDBRow center>
           <p
             className="btn nav-link text-dark Ripple-parent hover"
@@ -41,23 +41,23 @@ class ModalPage extends React.Component {
           >
             <strong>Twitter Feed</strong>
           </p>
-          <Modal
+          <MDBModal
             isOpen={this.state.modal2}
             toggle={() => this.toggle(2)}
             size="lg"
           >
-            <ModalHeader toggle={() => this.toggle(2)}>
+            <MDBModalHeader toggle={() => this.toggle(2)}>
               My Twitter Feed
-            </ModalHeader>
-            <ModalBody>
+            </MDBModalHeader>
+            <MDBModalBody>
               <TwitterTimeline />
-            </ModalBody>
-            <ModalFooter>
-              <Button color="purple" size="lg" onClick={() => this.toggle(2)}>
+            </MDBModalBody>
+            <MDBModalFooter>
+              <MDBBtn color="purple" size="lg" onClick={() => this.toggle(2)}>
                 Close
-              </Button>
-            </ModalFooter>
-          </Modal>
+              </MDBBtn>
+            </MDBModalFooter>
+          </MDBModal>
           <p
             className="btn nav-link text-dark Ripple-parent hover"
             size="lg"
@@ -65,23 +65,23 @@ class ModalPage extends React.Component {
           >
             <strong>Blog Articles</strong>
           </p>
-          <Modal
+          <MDBModal
             isOpen={this.state.modal3}
             toggle={() => this.toggle(3)}
             size="lg"
           >
-            <ModalHeader toggle={() => this.toggle(3)}>
+            <MDBModalHeader toggle={() => this.toggle(3)}>
               Blog Articles
-            </ModalHeader>
-            <ModalBody>
+            </MDBModalHeader>
+            <MDBModalBody>
               <AccordionPage />
-            </ModalBody>
-            <ModalFooter>
-              <Button color="purple" size="lg" onClick={() => this.toggle(3)}>
+            </MDBModalBody>
+            <MDBModalFooter>
+              <MDBBtn color="purple" size="lg" onClick={() => this.toggle(3)}>
                 Close
-              </Button>
-            </ModalFooter>
-          </Modal>
+              </MDBBtn>
+            </MDBModalFooter>
+          </MDBModal>
           <p
             className="btn nav-link text-dark Ripple-parent hover"
             size="lg"
@@ -89,22 +89,22 @@ class ModalPage extends React.Component {
           >
             <strong>Contact</strong>
           </p>
-          <Modal
+          <MDBModal
             isOpen={this.state.modal4}
             toggle={() => this.toggle(4)}
             size="fluid"
             backdrop={false}
           >
-            <ModalHeader toggle={() => this.toggle(4)}>Contact me</ModalHeader>
-            <ModalBody>
+            <MDBModalHeader toggle={() => this.toggle(4)}>Contact me</MDBModalHeader>
+            <MDBModalBody>
               <ContactPage />
-            </ModalBody>
-            <ModalFooter>
-              <Button color="purple" onClick={() => this.toggle(4)}>
+            </MDBModalBody>
+            <MDBModalFooter>
+              <MDBBtn color="purple" onClick={() => this.toggle(4)}>
                 Close
-              </Button>
-            </ModalFooter>
-          </Modal>
+              </MDBBtn>
+            </MDBModalFooter>
+          </MDBModal>
           <p
             className="btn nav-link text-dark Ripple-parent hover"
             size="lg"
@@ -112,25 +112,25 @@ class ModalPage extends React.Component {
           >
             <strong>Testimonials</strong>
           </p>
-          <Modal
+          <MDBModal
             isOpen={this.state.modal5}
             toggle={() => this.toggle(5)}
             size="lg"
           >
-            <ModalHeader toggle={() => this.toggle(5)}>
+            <MDBModalHeader toggle={() => this.toggle(5)}>
               Testimonials
-            </ModalHeader>
-            <ModalBody>
+            </MDBModalHeader>
+            <MDBModalBody>
               <TestimonialsPage />
-            </ModalBody>
-            <ModalFooter>
-              <Button color="purple" onClick={() => this.toggle(5)}>
+            </MDBModalBody>
+            <MDBModalFooter>
+              <MDBBtn color="purple" onClick={() => this.toggle(5)}>
                 Close
-              </Button>
-            </ModalFooter>
-          </Modal>
+              </MDBBtn>
+            </MDBModalFooter>
+          </MDBModal>
         </MDBRow>
-      </Container>
+      </MDBContainer>
     )
   }
 }
