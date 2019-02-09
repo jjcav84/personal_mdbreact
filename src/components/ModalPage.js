@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import {
   Container,
   Button,
@@ -7,11 +7,11 @@ import {
   ModalHeader,
   ModalFooter,
   MDBRow
-} from 'mdbreact'
-import TwitterTimeline from './TwitterTimeline'
-import AccordionPage from './AccordionPage'
-import ContactPage from './ContactPage'
-import TestimonialsPage from './TestimonialsPage'
+} from "mdbreact"
+import TwitterTimeline from "./TwitterTimeline"
+import AccordionPage from "./AccordionPage"
+import ContactPage from "./ContactPage"
+import TestimonialsPage from "./TestimonialsPage"
 
 class ModalPage extends React.Component {
   constructor(props) {
@@ -25,7 +25,7 @@ class ModalPage extends React.Component {
   }
 
   toggle(nr) {
-    let modalNumber = 'modal' + nr
+    let modalNumber = "modal" + nr
     this.setState({
       [modalNumber]: !this.state[modalNumber]
     })
@@ -37,13 +37,15 @@ class ModalPage extends React.Component {
         <MDBRow center>
           <p
             className="btn nav-link text-dark Ripple-parent hover"
-            onClick={() => this.toggle(2)}>
+            onClick={() => this.toggle(2)}
+          >
             <strong>Twitter Feed</strong>
           </p>
           <Modal
             isOpen={this.state.modal2}
             toggle={() => this.toggle(2)}
-            size="md">
+            size="lg"
+          >
             <ModalHeader toggle={() => this.toggle(2)}>
               My Twitter Feed
             </ModalHeader>
@@ -59,13 +61,15 @@ class ModalPage extends React.Component {
           <p
             className="btn nav-link text-dark Ripple-parent hover"
             size="lg"
-            onClick={() => this.toggle(3)}>
+            onClick={() => this.toggle(3)}
+          >
             <strong>Blog Articles</strong>
           </p>
           <Modal
             isOpen={this.state.modal3}
             toggle={() => this.toggle(3)}
-            size="lg">
+            size="lg"
+          >
             <ModalHeader toggle={() => this.toggle(3)}>
               Blog Articles
             </ModalHeader>
@@ -81,14 +85,16 @@ class ModalPage extends React.Component {
           <p
             className="btn nav-link text-dark Ripple-parent hover"
             size="lg"
-            onClick={() => this.toggle(4)}>
+            onClick={() => this.toggle(4)}
+          >
             <strong>Contact</strong>
           </p>
           <Modal
             isOpen={this.state.modal4}
             toggle={() => this.toggle(4)}
             size="fluid"
-            backdrop={false}>
+            backdrop={false}
+          >
             <ModalHeader toggle={() => this.toggle(4)}>Contact me</ModalHeader>
             <ModalBody>
               <ContactPage />
@@ -102,14 +108,15 @@ class ModalPage extends React.Component {
           <p
             className="btn nav-link text-dark Ripple-parent hover"
             size="lg"
-            onClick={() => this.toggle(5)}>
+            onClick={() => this.toggle(5)}
+          >
             <strong>Testimonials</strong>
           </p>
           <Modal
             isOpen={this.state.modal5}
             toggle={() => this.toggle(5)}
-            size="fluid"
-            backdrop={false}>
+            size="lg"
+          >
             <ModalHeader toggle={() => this.toggle(5)}>
               Testimonials
             </ModalHeader>
