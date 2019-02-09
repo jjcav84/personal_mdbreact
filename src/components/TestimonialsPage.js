@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import {
   MDBContainer,
   MDBCarousel,
@@ -6,19 +6,20 @@ import {
   MDBCarouselItem,
   MDBTestimonial,
   MDBIcon
-} from 'mdbreact'
+} from "mdbreact"
 
 const TestimonialsPage = () => {
   return (
     <MDBContainer>
-      <section id="testimonial" className="text-center my-4">
+      <section id="testimonial">
         <MDBCarousel
           activeItem={1}
           length={2}
           testimonial
           interval={7000}
           showIndicators={false}
-          className="no-flex">
+          className="no-flex"
+        >
           <MDBCarouselInner>
             <MDBCarouselItem itemId="1">
               <MDBTestimonial>
@@ -37,9 +38,9 @@ const TestimonialsPage = () => {
                   leveraging his technical sophistication to accelerate our
                   tempo as a behind the scenes facilitator. Jacob was the key
                   technical resource in my group. Jacob taught and mentored M.S.
-                  and Ph.D. students and helped also a postdoctoral scientist in
+                  and PhD students and helped also a postdoctoral scientist in
                   his technological tasks. Jacob was one of the finest people I
-                  have worked with. He is a very hard working, focused and
+                  have worked with. He is a very hard working, focused, and
                   motivated individual with expertise in many various areas of
                   technology especially Linux operations.
                   <MDBIcon icon="quote-right" />
