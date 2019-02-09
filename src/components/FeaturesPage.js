@@ -27,9 +27,8 @@ const FeaturesPage = () => {
               This site was built as a static site using React featuring a CI/CD
               pipeline using Semaphore that deploys to my UpCloud Virtual
               Private Server running CentOS on this domain as well as
-              concurrently to an{' '}
-              <a href="https://jakecavazos.com"> AWS S3 bucket</a> and{' '}
-              <a href="https://jakecavazos.host"> Google Firebase</a> as well as
+              concurrently to an AWS S3 bucket and{' '}
+              <a href="https://jakecavazos.host">Google Firebase</a> as well as
               creating and pushing a docker image to my{' '}
               <a href="https://cloud.docker.com/repository/docker/jcavazos/dockerize-personal-site">
                 public repository

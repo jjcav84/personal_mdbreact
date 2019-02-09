@@ -67,7 +67,7 @@ class AccordionPage extends Component {
                   you type the command to pass the file&apos;s name to Vagrant
                   to package the box after the installation and configuration
                   steps are completed. In the settings select Linux Red Hat
-                  64-bit and assign 512mb ram and 1-2 cpu(s) running on a
+                  64-bit and assign 512mb ram and 1-2 cpus running on a
                   dynamically allocated vdmk virtual hard drive with 30-40gb of
                   storage. Next add an optical disk drive to the IDE controller
                   then mount the downloaded CentOS 7 iso file onto it. Continue
