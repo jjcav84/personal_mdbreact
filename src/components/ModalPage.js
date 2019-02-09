@@ -95,7 +95,9 @@ class ModalPage extends Component {
             size="fluid"
             backdrop={false}
           >
-            <MDBModalHeader toggle={() => this.toggle(4)}>Contact me</MDBModalHeader>
+            <MDBModalHeader toggle={() => this.toggle(4)}>
+              Contact me
+            </MDBModalHeader>
             <MDBModalBody>
               <ContactPage />
             </MDBModalBody>
