@@ -20,6 +20,7 @@ class App extends React.Component {
           <meta charSet="utf-8" />
           <title>Jacob Cavazos | Personal Website </title>
           <link rel="canonical" href="https://jacobcavazos.com/" />
+          <script src="https://cdn.pagesense.io/js/visualcloudfx/db681c52522e45d7ba819c54a8c88ab4.js"></script>
         </Helmet>
         <VideoBackgroundPage />
         <FeaturesPage />
